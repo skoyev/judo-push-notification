@@ -1,10 +1,10 @@
 # Judo Push Notification
 
-# Project Goal
+## Project Goal
 
 The purpose of this app is to create a dummy app with Meteor and React and Push Notification capabilities.
 
-Judo Push Notification App has the following pages:
+**Judo Push Notification App has the following pages:**
 
 - meteor user authentication pages (Meteor built in);
 
@@ -30,4 +30,4 @@ Preferable use of these packages:
 
 - https://github.com/okgrow/analytics - Mixpanel config only
 
-# Installation Instruction
+## Installation Instruction
