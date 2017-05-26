@@ -1,0 +1,52 @@
+<head>
+  <title>meteor-notification</title>
+</head>
+
+<body>
+  {{> Template.dynamic template=currentPage}}
+</body>
+
+<template name="index">
+  <div class="container">
+          {{#if currentUser}}
+            {{> loggedin}}
+          {{else}}
+            {{> login}}
+          {{/if}}
+  </div>
+</template>
+
+<template name="loggedin">
+  <div>
+   <h2>Welcome Into Judo Push Notification!</h2>
+
+   <div>Welcome,{{> loginButtons}}</div>
+
+   <h4>Send Message:</h4>
+   <div style="margin-top:10px; margin-bottom: 10px;">
+    <div style="float: left; margin-right: 10px;">
+      <span>Text:</span>
+      <input type="text" name="message" id="message"/>
+    </div>
+    <div style="float: left">
+      <button id="push">Send Notification</button>
+    </div>
+   </div>
+
+   <br>
+   <h4>|</h4>
+   
+   <div id="warning" class="alert alert-warning" style="">
+     <strong>Message has been pushed successfully!</strong>
+   </div>
+
+   <div>
+      <h4>Received Messages:</h4>
+   </div>
+  </div>
+</template>
+
+<template name="login">
+  <h1>Judo Push Notification!</h1>
+  <div>{{> loginButtons}}</div>
+</template>
