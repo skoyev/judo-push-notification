@@ -31,3 +31,13 @@ Preferable use of these packages:
 - https://github.com/okgrow/analytics - Mixpanel config only
 
 ## Installation Instruction
+
+Run the below commands in order to install necessary meteor packages:
+
+- meteor add kadira:blaze-layout
+
+- meteor add raix:push
+
+- meteor add useraccounts:flow-routing
+
+- meteor add okgrow:analytics
