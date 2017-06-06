@@ -1,6 +1,6 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-
+import OKGAnalytics, { analytics } from '@okgrow/auto-analytics';
 import './main.html';
 
 Meteor.methods({
@@ -27,6 +27,7 @@ Session.setDefault('page', 'index');
 Template.index.onCreated(function indexOnCreated() {
 	this.formErrors = new ReactiveVar("");
 	$('#login-error').hide();
+        OKGAnalytics(Meteor.settings.public.analyticsSettings);
 });
 
 Template.loggedin.onRendered(function () {
@@ -84,6 +85,12 @@ Template.loggedin.events({
   'click #push' : function(event, template) {
     var message = template.find('#message').value;
     $('#warning').show('slow').delay(5000).hide('slow');
-		Meteor.call("serverNotification", "Message Title", message);
+    Meteor.call("serverNotification", "Message Title", message);
+
+    // Send Mix Panel notification
+    analytics.track("Judo Push Notification", {
+      eventName: "Push Message",
+      messageValue: message,
+    });
   }
 });
