@@ -6,7 +6,7 @@ Meteor.startup(() => {
 
 	Push.Configure({
 	  android: {
-	    senderID: 834514837552,
+	    senderID: 834514837552, // Change it
 	    alert: true,
 	    badge: true,
 	    sound: true,

@@ -40,9 +40,15 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add useraccounts:flow-routing
 
-- meteor add okgrow:analytics
+- meteor add  okgrow:analytics
 
 ## Mixpanel Analytics (OK GROW)
 ### Link: https://github.com/okgrow/analytics
 
 OK GROW! analytics uses a combination of the browser History API, Meteor's accounts package and Segment.io's analytics.js to automatically record and send user identity and page view event data from your Meteor app to your analytics platforms.
+
+## Start Jugo Application Steps
+
+In order to start Jugo app with that settings file as follows:
+
+meteor --settings settings.json
