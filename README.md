@@ -46,6 +46,8 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add  okgrow:analytics
 
+- meteor add bootstrap
+
 ## For the Account, please choose one or more account type access:
 
 - meteor add accounts-password
