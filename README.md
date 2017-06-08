@@ -40,6 +40,8 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add session
 
+- meteor add accounts-u
+
 - meteor add useraccounts:flow-routing
 
 - meteor add  okgrow:analytics
