@@ -48,6 +48,8 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add bootstrap
 
+- meteor add iron:router
+
 ## For the Account, please choose one or more account type access:
 
 - meteor add accounts-password
