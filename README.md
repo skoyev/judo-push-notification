@@ -46,6 +46,22 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add  okgrow:analytics
 
+## For the Account, please choose one or more account type access:
+
+- meteor add accounts-password
+
+- meteor add accounts-facebook
+
+- meteor add accounts-google
+
+- meteor add accounts-github
+
+- meteor add accounts-twitter
+
+- meteor add accounts-meetup
+
+- meteor add accounts-meteor-developer
+
 ## Mixpanel Analytics (OK GROW)
 ### Link: https://github.com/okgrow/analytics
 
