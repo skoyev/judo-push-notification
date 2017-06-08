@@ -38,6 +38,8 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add raix:push
 
+- meteor add session
+
 - meteor add useraccounts:flow-routing
 
 - meteor add  okgrow:analytics
