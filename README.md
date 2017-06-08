@@ -50,7 +50,7 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add accounts-password
 
-- meteor add accounts-facebook
+- meteor add accounts-facebook (also add meteor add facebook-config-ui)
 
 - meteor add accounts-google
 
@@ -61,6 +61,8 @@ Run the below commands in order to install necessary meteor packages:
 - meteor add accounts-meetup
 
 - meteor add accounts-meteor-developer
+
+You would need to configure manually your account access.
 
 ## Mixpanel Analytics (OK GROW)
 ### Link: https://github.com/okgrow/analytics
