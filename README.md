@@ -50,6 +50,8 @@ Run the below commands in order to install necessary meteor packages:
 
 - meteor add iron:router
 
+- npm install @okgrow/auto-analytics
+
 ## For the Account, please choose one or more account type access:
 
 - meteor add accounts-password
