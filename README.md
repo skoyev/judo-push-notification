@@ -75,6 +75,8 @@ You would need to configure manually your account access.
 
 OK GROW! analytics uses a combination of the browser History API, Meteor's accounts package and Segment.io's analytics.js to automatically record and send user identity and page view event data from your Meteor app to your analytics platforms.
 
+For the full Mixpanel Analytics docs, please visit: https://www.npmjs.com/package/@okgrow/auto-analytics
+
 ## Start Jugo Application Steps
 
 In order to start Jugo app with that settings file as follows:
