@@ -28,3 +28,4 @@ accounts-facebook
 facebook-config-ui
 bootstrap
 iron:router
+okgrow:analytics@2.0.1
